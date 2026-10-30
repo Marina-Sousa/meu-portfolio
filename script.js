@@ -1,10 +1,3 @@
-const nome = "Marina";
-const idade = 27;
-const cidade = "Vancouver";
-const estaEstudandoFullStack = true;
-const linguagens = ["C", "Python"];
-const perfil = { nome: "Marina", idade: 27, curso: "computação" };
-
 async function buscarPiada() {
     try {
         const resposta = await fetch("https://official-joke-api.appspot.com/random_joke");
